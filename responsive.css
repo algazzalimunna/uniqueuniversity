@@ -1,0 +1,125 @@
+
+
+.navbar .menu{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar{
+        padding-top: 6%;
+    }
+    .logo img{
+        width: 70px;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .common_btn{
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+
+    .section{
+        margin: 100px auto;
+    }
+    .section_head{
+        margin-bottom: 50px;
+    }
+    .section_row h2{
+        font-size: 16px;
+    }
+    .section_row h3{
+        font-size: 14px;
+    }
+    .section_row p{
+        font-size: 12px;
+    }
+    .section_head h1{
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .section_head p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .col_4{
+        flex-basis: 100%;
+        margin-bottom: 14px;
+    }
+    .col_6{
+        flex-basis: 48%;
+        margin-bottom: 14px;
+    }
+    .col_3{
+        flex-basis: 100%;
+        margin-bottom: 14px;
+    }
+    .col_2{
+        flex-basis: 100%;
+        margin-bottom: 14px;
+    }
+    .col_28{
+        flex-basis: 58%;
+        margin-bottom: 14px;
+    }
+    .col_18{
+        flex-basis: 38%;
+        margin-bottom: 14px;
+    }
+
+
+    .contact{
+        height: 50vh;
+    }
+    .contact_box h1{
+        font-size: 18px;
+    }
+
+    .topbar{ 
+        height: 100vh;
+    }
+
+    .nav ul li{
+        display: block;
+        margin: 12px 0;
+
+    }
+    .nav ul li a{
+        font-size: 14px;
+    }
+    .nav{
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        background-color: #f44336;
+        top: 0;
+        right: -200px;
+        z-index: 2;
+        padding: 10px;
+        transition: 1s;
+    }
+    .nav .btn{
+        background-color: #fff ;
+        color: #f44336;
+    }
+
+    .navbar .menu{
+        display: block;
+        color: #fff;
+    }
+    
+
+
+
+
+
+
+
+}
